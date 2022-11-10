@@ -1,0 +1,739 @@
+* {
+    font-family: 'SuisseRegular';
+    box-sizing: border-box;
+}
+
+/*index page*/
+.index-page {
+    width: 100%;
+    height: 600px;
+    background-color: #9E76B4;
+    border: #362e2e solid 1px;
+    /* background-image: url(../image/me.jpg);
+    background-size: cover;
+    background-position-y: center; */
+}
+
+@media screen and (max-width:538px) {
+    .index-page {
+        background-size: cover;
+        background-position-x: center;
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.header table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    background-color: #ED7D31;
+    width: 100%;
+    height: fit-content;
+    margin-left: 0;
+    border: #362e2e solid 1px;
+}
+
+.header table th {
+    display: block;
+    text-align: left;
+    color: #eff1c9;
+}
+
+.header table th a,
+.header table td a {
+    text-decoration: underline;
+    color: #ffffff;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+@media screen and (max-width:538px) {
+
+    .header table thead {
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .header table tbody {
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+}
+
+.header table td {
+    display: block;
+    text-align: right;
+    color: #eff1c9;
+}
+
+
+.index-page h1 {
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #362e2e;
+    text-align: center;
+    margin-top: 160px;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width:538px) {
+    .index-page h1 {
+        font-size: 40px;
+    }
+}
+
+.index-page p {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    text-shadow: #362e2e;
+}
+
+@media screen and (max-width:538px) {
+    .index-page p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .kindheart {
+        margin-left: -80px;
+        margin-top: -20px;
+    }
+}
+
+#btn-explore {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: left;
+    border: #ED7D31 solid 2px;
+    border-radius: 50px;
+    padding: 15px 50px;
+    background-color: #362e2e;
+    margin-top: 1px;
+
+}
+
+#btn-explore a {
+    text-decoration: none;
+    color: #9E76B4;
+}
+
+@media screen and (max-width:538px) {
+    #description {
+        margin-left: 5px;
+        margin-top: 0;
+        padding: 0;
+        width: 90%;
+        text-align: start;
+    }
+}
+
+/*content page*/
+
+header h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #362e2e;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:538px) {
+    header h2 {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+}
+
+header p {
+    font-size: 18px;
+    background-color: #ED7D31;
+    background-color: #9E76B4;
+    color: #eff1c9;
+    border: #ED7D31 solid 1px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 16.66%;
+    text-align: center;
+}
+
+.demo {
+    opacity: 0.7;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.overlay {
+    margin: 5px 0;
+    color: #362e2e;
+    font-weight: 700;
+
+}
+
+@media screen and (max-width:538px) {
+
+    header p,
+    .row {
+        margin-left: 30px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .overlay {
+        font-size: 14px;
+    }
+}
+
+#ebook-btn {
+    border: #ED7D31 solid 2px;
+    color: #eff1c9;
+    background-color: #9E76B4;
+    border-radius: 12px;
+    text-align: center;
+    width: 300px;
+    height: fit-content;
+    padding: 15px 50px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+#ebook-btn a {
+    text-decoration: none;
+    color: #eff1c9;
+}
+
+@media screen and (max-width:538px) {
+    #ebook-btn {
+        width: 150px;
+        margin-left: 150px;
+
+    }
+}
+
+#descrip-ebook {
+    color: #362e2e;
+    margin-left: 500px;
+}
+
+@media screen and (max-width:538px) {
+    #descrip-ebook {
+        margin-top: 10px;
+        margin-left: 75px;
+    }
+}
+
+/*profile page*/
+.profile-page {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+.profile-page h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #362e2e;
+    text-align: left;
+}
+
+@media screen and (max-width:538px) {
+    .profile-page h2 {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+}
+
+.container-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+}
+
+.card {
+    border: #362e2e solid 2px;
+    border-radius: 30px;
+    display: block;
+    width: 240px;
+    height: 250px;
+}
+
+.card h4 {
+    border: #286428 solid 4px;
+    background-color: #9E76B4;
+}
+
+@media screen and (max-width:538px) {
+    .card {
+        width: 110px;
+        height: 120px;
+        margin-left: 10px;
+    }
+}
+
+.card1 {
+    background-image: url(../image/me.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.card2 {
+    background-image: url(../image/school.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.card3 {
+    background-image: url(../image/talent.jpg);
+    background-size: cover;
+}
+
+.card4 {
+    background-image: url(../image/address.jpg);
+    background-size: cover;
+}
+
+.card h4 {
+    border: #ED7D31 solid 2px;
+    border-radius: 30px;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: left;
+    margin-top: 270px;
+}
+
+.card p {
+    margin-left: 15px;
+}
+
+@media screen and (max-width:538px) {
+    .card h4 {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .card p {
+        width: 70%;
+        text-align: justify;
+
+    }
+}
+
+/*education-page*/
+.education-page {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:538px) {
+    .education-page {
+        margin-top: -120px;
+    }
+}
+
+.education-page h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #362e2e;
+    text-align: left;
+}
+
+@media screen and (max-width:538px) {
+    .education-page h2 {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+}
+
+.school-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+
+}
+
+.me-in-vru {
+    width: 500px;
+    height: 300px;
+    border: #362e2e solid 1px;
+    background-image: url(../image/education-card/Slide1.PNG);
+    background-size: cover;
+    margin-left: 20px;
+    background-position-x: center;
+}
+
+.me-in-skr {
+    width: 500px;
+    height: 300px;
+    border: #362e2e solid 1px;
+    background-image: url(../image/education-card/Slide2.PNG);
+    background-size: cover;
+    margin-left: 20px;
+    background-position-x: center;
+}
+
+@media screen and (max-width:538px) {
+
+    .me-in-skr,
+    .me-in-vru {
+        width: 400px;
+        height: 300px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .school-card {
+        display: block;
+        width: 100%;
+        margin-left: 45px;
+
+    }
+}
+
+
+/*certificate-page*/
+.certificate-page {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:538px) {
+    .certificate-page {
+        margin-top: 150px;
+    }
+}
+
+.certificate-page h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #362e2e;
+    text-align: left;
+}
+
+@media screen and (max-width:538px) {
+    .certificate-page h2 {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .school-btn {
+        display: none;
+    }
+}
+
+.container-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery {
+    width: 300px;
+    height: 200px;
+    border: #362e2e solid 1px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+}
+
+.gal1 {
+    background-image: url(../image/cer/01certi.png);
+    background-size: cover;
+    /* background: position 5px; */
+    background-position-x: center;
+}
+
+.gal2 {
+    background-image: url(../image/cer/02certi.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.gal3 {
+    background-image: url(../image/cer/03certi.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.gal4 {
+    background-image: url(../image/cer/04certi-cut.png);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 250px;
+}
+
+.gal5 {
+    background-image: url(../image/cer/05certi.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.gal6 {
+    background-image: url(../image/cer/06certi.png);
+    background-size: cover;
+    background-position-x: center;
+}
+
+.gallery h5 {
+    margin-left: 30px;
+    color: #362e2e;
+}
+
+@media screen and (max-width:538px) {
+    .container-gallery {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .gallery {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:538px) {
+
+    .gal4,
+    .gal2 {
+        margin-left: 0px;
+
+    }
+}
+
+@media screen and (max-width:538px) {
+
+    .gal4 {
+        margin-left: 0px;
+        height: 200px;
+        background-position-y: center;
+
+    }
+}
+
+@media screen and (max-width:538px) {
+
+    .gal6 {
+        margin-left: 0px;
+    }
+}
+
+.fullcer-box {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#fullcer-btn {
+    border-radius: 12px;
+    width: fit-content;
+    padding: 15px 100px;
+    margin-top: 90px;
+    border: #ED7D31 solid 2px;
+    color: #eff1c9;
+    background-color: #9E76B4;
+}
+
+#fullcer-btn a {
+    text-decoration: none;
+    color: #eff1c9;
+    cursor: grab;
+}
+
+@media screen and (max-width:538px) {
+    .fullcer-box {
+        margin-left: -40px;
+        margin-top: -10px;
+        text-align: center;
+    }
+}
+
+/*work page*/
+.work-page {
+    margin-top: 300px
+}
+
+#code {
+    width: 70%;
+    height: 100%;
+    margin: 0 170px;
+}
+
+@media screen and (max-width:538px) {
+    .work-page h2 {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+}
+
+/*university-page*/
+.university-page {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin-top: 200px;
+}
+
+@media screen and (max-width:538px) {
+    .university-page {
+        margin-top: 350px;
+    }
+}
+
+.university-page h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #362e2e;
+    text-align: left;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:538px) {
+    .university-page h2 {
+        margin-left: 15px;
+        font-size: 30px;
+    }
+}
+
+marquee {
+    background-color: #9E76B4;
+    border: #ED7D31 solid 1px;
+    width: 100%;
+    color: #eff1c9;
+}
+
+table tr td #ceo {
+    width: 400px;
+    height: auto;
+    margin-left: 40px;
+}
+
+#longtext {
+    text-align: left;
+    width: 700px;
+    margin-left: 90px;
+    font-size: 24px;
+    color: #362e2e;
+}
+
+@media screen and (max-width:538px) {
+    .university-page table td {
+        display: block;
+        justify-content: left;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .university-page table td p {
+        text-align: center;
+        margin-left: 25px;
+        width: 90%;
+    }
+}
+
+/*ebook page*/
+.ebook-page {
+    margin-top: 150px;
+}
+
+@media screen and (max-width:538px) {
+    .ebook-page {
+        margin-top: 500px;
+    }
+}
+
+/*contact-page*/
+.contact-page {
+    width: 100%;
+    height: 600px;
+    background-color: #362e2e;
+    margin-top: 150px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:538px) {
+    .contact-page {
+        margin-top: 0;
+    }
+}
+
+.contact-container {
+    text-align: center;
+    padding: 50px;
+}
+
+.contact-page header {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.801);
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.text-intro h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #a89494;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.text-intro p {
+    font-size: 20px;
+    color: #a89494;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.contact-icon {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}

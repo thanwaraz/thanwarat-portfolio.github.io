@@ -1,0 +1,191 @@
+* {
+    font-family: 'SuisseRegular';
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 600px;
+    background-color: white;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:538px) {
+    body {
+        width: 100%;
+
+    }
+}
+
+table {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    text-align: center;
+    margin-top: 0;
+    margin: 0px 10px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+}
+
+header h2 {
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #362e2e;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width:538px) {
+    header h2 {
+        font-size: 30px;
+
+    }
+}
+
+.left-side {
+    width: 100%;
+}
+
+@media screen and (max-width:538px) {
+
+    .certi h5,
+    .certi p,
+    .certi u,
+    .certi strong,
+    .certi blockquote,
+    .certi .by,
+    .certi .school {
+        font-size: 12px;
+        display: block;
+        margin-left: 0px;
+        line-height: normal;
+        margin-top: -10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .certi u {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .certi .by {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .certi .school {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .certi blockquote {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.certi {
+    margin-bottom: 150px;
+    padding-left: 30px;
+}
+
+.dsd {
+    margin-top: 250px;
+}
+
+.volunteer {
+    margin-top: 210px;
+}
+
+h5 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.certi p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.cer-pic img {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width:538px) {
+    .cer-pic img {
+        width: 100%;
+        display: block;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width:538px) {
+    .cer-pic {
+        display: block;
+        justify-content: center;
+
+    }
+}
+
+@media screen and (max-width:538px) {
+    #skooldio {
+        margin-top: 20px;
+
+    }
+}
+
+@media screen and (max-width:538px) {
+    #dekd {
+        margin-top: 230px;
+
+    }
+}
+
+@media screen and (max-width:538px) {
+    #mooc {
+        margin-top: 240px;
+        margin-bottom: auto;
+
+    }
+}
+
+@media screen and (max-width:538px) {
+    #dsd-pic {
+        margin-top: 200px;
+    }
+}
+
+
+
+@media screen and (max-width:538px) {
+    #skr-volunteer {
+        margin-top: 270px;
+
+    }
+}
+
+@media screen and (max-width:538px) {
+    #skr-musical {
+        margin-top: 220px;
+
+    }
+}
+
+#skrvolunteer {
+    margin-top: 75px;
+}
+
+#skrmusical {
+    margin-top: 90px;
+}
+
+.musical h5 {
+    margin-top: 100px;
+}
